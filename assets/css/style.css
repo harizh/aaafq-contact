@@ -128,7 +128,7 @@ border-top-right-radius: 30px;
 border-bottom-right-radius: 30px;
 }
 
-.selected::after {
+.selectedDiv::after {
   content: "";
   background: url("../img/arrow-down.svg");
   background-size: contain;
@@ -242,6 +242,9 @@ footer{
   background-size: cover;
   background-position: center;
   margin-top: 5rem;
+}
+.invalid-feedback{
+  text-align: right;
 }
 @media only screen and (max-width: 600px) {
   body {
